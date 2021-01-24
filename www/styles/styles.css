@@ -162,7 +162,6 @@ main {
 footer {
   background-color: black;
   padding: 5rem;
-  bottom
 }
 footer a,
 footer p {
@@ -183,9 +182,6 @@ iframe {
   main {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: nowrap;
-  align-items: flex-start;
-  justify-content: space-between; */
     margin-bottom: 3rem;
   }
   .formulario {
@@ -194,8 +190,6 @@ iframe {
 
   iframe {
     display: none;
-    /* width: 46;
-    height: 21; */
   }
   .horas {
     padding: 0px;
