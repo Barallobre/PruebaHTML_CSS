@@ -3,16 +3,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #d9d9d9;
 }
 html {
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
 }
+
 h1,
 h2 {
   margin: 1rem;
-  margin-left: 10rem;
+  margin-left: 1rem;
 }
 
 .foto-lateral {
@@ -20,10 +20,6 @@ h2 {
 }
 .rrss img {
   width: 30px;
-}
-footer a {
-  color: white;
-  font-size: 12px;
 }
 footer a:visited {
   color: grey;
@@ -134,16 +130,13 @@ button {
 button:active {
   box-shadow: inset 10px 10px 20px black;
 }
-.formulario {
-  border: 1px solid black;
-  margin: 2rem;
-  padding: 2rem;
+
+.formulario input,
+.formulario label {
+  padding: 1rem;
 }
 aside {
   background-color: white;
-  border: 1px solid black;
-  margin: 2rem;
-  padding: 2rem;
 }
 aside p,
 aside img,
@@ -161,10 +154,59 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  /* justify-content: flex-end;
-} */
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-bottom: 3rem;
 }
+
 footer {
   background-color: black;
   padding: 5rem;
+  bottom
+}
+footer a,
+footer p {
+  color: white;
+  font-size: 12px;
+  background-color: black;
+  padding: 1rem;
+}
+.parte-central {
+  margin: 3rem;
+}
+iframe {
+  width: 560;
+  height: 310;
+}
+
+@media (max-width: 700px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-between; */
+    margin-bottom: 3rem;
+  }
+  .formulario {
+    width: 100%;
+  }
+
+  iframe {
+    display: none;
+    /* width: 46;
+    height: 21; */
+  }
+  .horas {
+    padding: 0px;
+    font-size: 8px;
+  }
+
+  .horario th {
+    padding: 0;
+    font-size: 8px;
+  }
+  main {
+    padding: 0px;
+  }
 }
