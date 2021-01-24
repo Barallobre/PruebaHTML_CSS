@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #d9d9d9;
+}
+
+.foto-lateral {
+  border-radius: 70px;
+}
+.rrss img {
+  width: 30px;
+}
+footer a {
+  color: white;
+  font-size: 12px;
+}
+footer a:visited {
+  color: grey;
+}
+.navbar {
+  background-color: grey;
+  border: 1px solid grey;
+}
+.navbar ul {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: grey;
+}
+.navbar ul li {
+  background-color: black;
+  list-style-type: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 2rem;
+}
+.navbar ul li a {
+  background-color: black;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
